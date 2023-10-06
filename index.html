@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- <link rel="preload" href="http://localhost:8080/font.woff2" as="font"> -->
+    <link rel="stylesheet" href="http://localhost:8080/style.css">
+</head>
+<body>
+    <script src="/script-defer.js" defer onload="console.log('defer')"></script>
+    <script src="/script-async.js" async onload="console.log('defer')"></script>
+    <script src="/script-sync.js" onload="console.log('sync')"></script>
+    <script>console.log("inline");</script>
+
+    <img src="https://placekitten.com/g/1201/1201" />
+</body>
+</html>

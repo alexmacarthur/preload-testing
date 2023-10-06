@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url(http://localhost:8080/font.woff2) format('woff2');
+}
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
